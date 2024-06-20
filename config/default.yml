@@ -1,1 +1,6 @@
-# Write it!
+G18xx/NoBlocklessAny:
+  Description: '`any?` without a block compiles to inefficient JavaScript. Use `!empty?` or pass an explicit block looking for non-nil elements instead.'
+  Enabled: true
+  Safe: true
+  SafeAutoCorrect: false
+  # VersionAdded: '<<next>>'

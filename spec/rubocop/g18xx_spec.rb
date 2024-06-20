@@ -1,11 +1,9 @@
 # frozen_string_literal: true
 
-RSpec.describe Rubocop::G18xx do
-  it "has a version number" do
-    expect(Rubocop::G18xx::VERSION).not_to be nil
-  end
+require_relative '../spec_helper'
 
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe RuboCop::G18xx do
+  it "has a version number" do
+    expect(RuboCop::G18xx::VERSION).not_to be nil
   end
 end

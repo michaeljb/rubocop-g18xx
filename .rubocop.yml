@@ -1,3 +1,11 @@
+require: rubocop-g18xx
+
+AllCops:
+  NewCops: enable
+
 Naming/FileName:
  Exclude:
    - lib/rubocop-g18xx.rb
+
+G18xx/NoBlocklessAny:
+  Enabled: true
