@@ -1,3 +1,9 @@
+G18xx/Logger:
+  Description: 'Use a block when passing interpolated strings to `LOGGER`.'
+  Enabled: true
+  Safe: true
+  SafeAutoCorrect: true
+
 G18xx/NoBlocklessAny:
   Description: '`any?` without a block compiles to inefficient JavaScript. Use `!empty?` or pass an explicit block looking for non-nil elements instead.'
   Enabled: true
