@@ -1,7 +1,7 @@
 # RuboCop::G18xx
 
 This is a custom RuboCop plugin for [18xx.games](https://18xx.games), hosted at
-[tobymao/18xx/](https://github.com/tobymao/18xx/).
+[tobymao/18xx](https://github.com/tobymao/18xx/).
 
 ## Development
 
